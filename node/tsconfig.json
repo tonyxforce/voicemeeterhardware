@@ -1,0 +1,22 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+			"skipLibCheck": true,
+			"emitDecoratorMetadata": true,
+			"experimentalDecorators": true,
+			"lib": ["es5"],
+			"moduleResolution": "node",
+			"noEmitOnError": true,
+			"noImplicitAny": true,
+			"suppressImplicitAnyIndexErrors": true,
+			"outDir": ".",
+			"removeComments": false,
+			"sourceMap": false,
+			"types": ["node"],
+			"module": "CommonJS",
+			"target": "es2022",
+			"ignoreDeprecations": "5.0"
+	},
+	"exclude": ["node_modules/*"],
+	"include": ["./*"],
+}
